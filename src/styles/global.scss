@@ -67,3 +67,8 @@ h2 {
 button {
   cursor: pointer;
 }
+
+::selection {
+  background: var(--purple-500);
+  color: var(--white);
+}
